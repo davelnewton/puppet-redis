@@ -12,7 +12,7 @@
 #
 # units are case insensitive so 1GB 1Gb 1gB are all the same.
 
-daemonize no
+daemonize yes
 pidfile <%= scope.lookupvar "redis::config::datadir" %>/pid
 
 # Accept connections on the specified port, default is 6379.
